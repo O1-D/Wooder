@@ -225,14 +225,14 @@ html {
     text-transform: uppercase;
     margin-bottom: 3.75rem;
 }
-.main__center-button p{
+.main__center-button span{
     font-size: 0.87rem;
     letter-spacing: 0.18rem;
     line-height: 2rem;
     color: #ffffff;
     text-transform: uppercase;
 }
-.main__center-button p::after {
+.main__center-button span::after {
     content: '\2192';
     color: #ffffff;
     margin-left: 0.5rem;
