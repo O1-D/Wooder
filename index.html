@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooder</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+    <div class="main">
+
+        <!-- menu -->
+        <div class="menu">
+            <div class="menu__left">
+                <nav>
+                    <ul class="menu__menu-left">
+                        <li class="menu__burger-left">
+                            <a href="#">
+                                <div class="menu__burger-lines">
+                                    <div class="menu__burger-line menu__burger-line-first"></div>
+                                    <div class="menu__burger-line menu__burger-line-second"></div>
+                                    <div class="menu__burger-line menu__burger-line-third"></div>
+                                </div>
+                                <span>menu</span>
+                            </a>
+                        </li>
+                        <ul class="menu__submenu-left">
+                            <li><a href="#products">products</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#works">works</a></li>
+                        </ul>
+                    </ul>
+                </nav>
+         </div>
+            <div class="menu__logo logo">
+                <h2>wooder</h2>
+                <img class="menu__logo-decor" src="img/lineLogo.png"></img>
+            </div>
+            <div class="menu__center">
+                <nav>
+                    <ul class="menu__center-items">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#products">products</a></li>
+                        <li><a href="#about">about</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__right">
+                <a href="#info" class="menu__info">i</a>
+                <ul class="menu__languages">
+                    <li><a href="#" class="menu__language">en</a></li>
+                    <ul class="menu__choose-language">
+                        <li><a href="#">en</a></li>
+                    </ul>
+                </ul>
+                
+            </div>
+        </div>
+
+        <!-- header -->
+        <div class="main__container">
+            <div class="main__left-column">
+                <p>01</p>
+            </div>
+            <div class="main__center-column">
+                <h1>wooder</h1>
+                <button class="main__center-button"><p>learn more</p></button>
+                <img class="main__img-mouse" src="img/mouse.png" alt="scroll mouse">
+                <img class="main__img-scroll-arrow" src="img/arrowScroll.png" alt="scroll arrow">
+            </div>
+            <div class="main__right-column">
+                <p>furniture and decor</p>
+            </div>
+            <div class="main__share-column">
+                <label for="social" class="main__share-button">
+                    <i class='fa fa-share-alt'></i>
+                </label>
+                    <input type="checkbox" id="social">
+                <a href="https://www.facebook.com/sharer.php?u=ПОЛНЫЙ_АДРЕС_ТЕКУЩЕЙ_СТРАНИЦЫ" target="_blank" class="main__social-link facebook">
+                    <i class='fa fa-facebook' style='color: white'></i>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=ТАЙТЛ_СТАТЬИ(ЗАГОЛОВОК). Описание. Ссылка" target="_blank" class="main__social-link twitter">
+                    <i class='fa fa-twitter' style='color: white'></i>
+                </a>
+                <a href="https://ru.pinterest.com/pin/create/button/?url=ПОЛНЫЙ_АДРЕС_ТЕКУЩЕЙ_СТРАНИЦЫ" target="_blank" class="main__social-link pinterest">
+                    <i class='fa fa-pinterest' style='color: white'></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- products -->
+        <section class="products" id="products">
+        <!-- furniture -->
+        <span class="main__f-decor">f</span>
+        <div class="main__products furniture">
+            <div class="main__furniture-content">                
+                <h2 class="main__furniture-title">furniture</h2>
+                <p class="main__furniture-text">Wooder utilizes materials otherwise left behind, rendered useless 
+                in their original intent. By creating new pieces made of reclaimed barnwood</p>
+                <button class="main__products-button furniture-button">learn more</button>
+                <span class="main__01-decor">01<span class="main__symbol-decor">.</span></span>
+            </div>
+            <div class="main__furniture-img">
+                <img class="main__furniture-img-img" src="img/futniture.png" alt="wooden table">
+                <span class="main__furniture-decor">furniture</span>
+            </div>            
+        </div>
+        <!-- decor -->
+        <div class="main__products decor">
+            <div class="main__decor-content">
+                <span class="main__d-decor">d</span>
+                <h2 class="main__decor-title">decor</h2>
+                <p class="main__decor-text">We make all types of wooden decor as per design given by Architect,
+                Interior designer, contractor which is suitable your premises.</p>
+                <button class="main__products-button decor-button">learn more</button>
+                <span class="main__02-decor">02<span class="main__symbol-decor">.</span></span>
+            </div>
+            <div class="main__decor-img">
+                <img class="main__decor-img-img" src="img/decor.png" alt="wooden bench">
+                <span class="main__decor-decor">decor</span>
+            </div>
+        </div>
+        <div class="main__products-decor-line"></div>
+        </section>
+       
+        <!-- about quality -->
+        <section class="main__quality" id="works">
+            <div class="main__about-quality">
+                <h4 class="main__about-quality-title">wooder - is quality</h4>
+                <div class="main__about-quality-decor"></div>
+                <p class="main__about-quality-text">We create unique design objects
+                    made of rare wood, specially under the order. Look at the short video
+                    about our work.</p>
+            </div>
+            <div class="main__videos ">
+                <div class="main__video main__video-first-child">
+                    <video src="video/first-video.mp4" class="main__video-first" id="video-first"></video>
+                    <button class="main__video-play-button  fa fa-play" id="button__first"></button>
+                    <div class="main__video-decor"></div>
+                    <p class="main__video-text">Innovative Design</p>
+                </div>
+                <div class="main__video main__video-middle-child">
+                    <video src="video/second-video.mp4" class="main__video-second" id="video-second"></video>
+                    <button class="main__video-play-button fa fa-play" id="button__second"></button>
+                    <div class="main__video-decor"></div>
+                    <p class="main__video-text">High-level Skills</p>
+                </div>
+                <div class="main__video main__video-last-child">
+                    <video src="video/third-video.mp4" class="main__video-third" id="video-third"></video>
+                    <button class="main__video-play-button fa fa-play" id="button__third"></button>
+                    <div class="main__video-decor"></div>
+                    <p class="main__video-text">Quality Products</p>
+                </div>
+                <span class="main__quality-v-decor">v</span>
+            </div>
+        </section>
+
+        <!-- video -->
+        <section class="main__section-video" id="info"> 
+            <video src="video/video.mp4" controls id="video-info" class="main__video-big"></video>             
+            <div class="main__video-container" id="video-content">               
+                <div class="main__video-inner-content">
+                    <div class="main__right">
+                        <h5 class="main__video-video-title">we do the design of any complexity</h5>
+                        <p class="main__video-video-text">This is a team of professionals that make the furniture and
+                            wood décor high standard. Creating modern designs.
+                            Adhering to the global quality standards. And we are
+                            doing work with love.</p>
+                        <button class="main__video-video-button" id="button-play"><i class="fa fa-play-circle-o"></i>watch video</button>
+                    </div>
+                   <div class="main__left-decor"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about us -->
+        <section class="main__about-us" id="about">
+            <div class="main__about about">
+                <div class="main__about-img">
+                    <img class="main__about-img-img" src="img/aboutUs.png" alt="three men near a car">
+                    <span class="main__about-decor">about us</span>
+                </div>
+                <div class="main__about-content">
+                    <h2 class="main__about-title">about us</h2>
+                    <p class="main__about-text">We are a team of professionals in the wood processing and the 
+                    creation of wooden furniture of the highest class</p>
+                    <button class="main__about-button about-button">learn more</button>
+                </div>  
+                <span class="main__a-decor">a</span>
+            </div>            
+        </section>
+
+     <!-- footer -->
+     <footer>
+        <div class="footer">
+            <div class="footer__date">
+                <p>© 2016 WOODER</p>
+            </div>
+            <div class="footer__logo logo">
+                <h2>wooder</h2>
+                <img class="menu__logo-decor" src="img/lineLogo.png"></img>
+            </div>
+            <div class="footer__designer-name">
+                <p>Designed by <span>Viacheslav Olianishyn</span></p>
+            </div>
+        </div>
+     </footer>
+
+        
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+    integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+</body>
+</html>
